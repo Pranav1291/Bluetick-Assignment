@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,58 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+
+.App{
+  text-align: center;
+  text-color: white;
+  
+  margin: 0;
+}
+.container{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.hero h1{
+  padding: 100px;
+  margin-bottom: -100px;
+
+}
+.hero p{
+  padding: 0px;
+}
+.App h1{
+  font-size: 50px;
+}
+.App p{
+  font-size: 25px;
+
+}
+.contact{
+  align-item: center;
+  //justify-content: center;
+  width: 90%;
+  max-width: 600px;
+  margin-left: 700px;
+
+}
+input-group{
+  margin-bottom: 30px;
+  position: relative;
+}
+input,textarea {
+  width: 100%;
+  padding: 20px;
+  outline: 0;
+  border: 1px solid #fff;
+  color: #fff;
+  background: transparent;
+  font-size: 15px;
+
+}
+label{
+  padding: 20px;
 }
